@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+    xmlns:dc="http://purl.org/dc/elements/1.1/">
+    <channel>
+        <title>My App Changelog</title>
+        <link>https://www.example.com/appcast</link>
+        <description>Most recent changes with links to updates.</description>
+        <language>en</language>
+        <item>
+            <title>Version 2.1</title>
+            <sparkle:minimumSystemVersion>4.0.3</sparkle:minimumSystemVersion>
+            <sparkle:releaseNotesLink>https://www.example.com/releases/2.1.html</sparkle:releaseNotesLink>
+            <pubDate>Tue, 21 Mar 2023 07:56:24 GMT+01:00</pubDate>
+            <enclosure url="https://play.google.com/store/apps/details?id=com.ezyli"
+                sparkle:version="2.1"
+                type="application/vnd.android.package-archive" />
+        </item>
+    </channel>
+</rss>
